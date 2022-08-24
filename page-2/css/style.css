@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0 10%;
+}
+.container #header {
+  background: #d3d3d3;
+  text-align: center;
+  padding: 50px;
+}
+.container #header .title {
+  margin: 15px 0;
+  font-size: 40px;
+}
+.container #header .description {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container #navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.container #navbar ul li {
+  margin: 20px 50px;
+  list-style: none;
+}
+.container #navbar ul li a {
+  color: #000;
+  font-size: 18px;
+}
+.container #navbar ul li a:hover {
+  text-decoration: underline;
+  transition: 0.6;
+}
+.container section {
+  border: 1px solid #d3d3d3;
+  padding: 25px 50px;
+  margin-bottom: 20px;
+}
+.container section .position {
+  font-size: 18px;
+}
+.container section .company {
+  margin: 15px 0;
+  font-size: 16px;
+}
+.container section ul {
+  margin-left: 40px;
+}
+.container section ul li {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

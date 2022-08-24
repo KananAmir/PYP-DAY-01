@@ -1,0 +1,63 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0 10%;
+    #header {
+        background: $grey;
+        text-align: center;
+        padding: 50px;
+        .title {
+            margin: 15px 0;
+            font-size: 40px;
+        }
+        .description {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    #navbar {
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                margin: 20px 50px;
+                list-style: none;
+                a {
+                    color: $dark;
+                    font-size: 18px;
+                    &:hover {
+                        text-decoration: underline;
+                        transition: 0.6;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        border: 1px solid $grey;
+        padding: 25px 50px;
+        margin-bottom: 20px;
+        .position {
+            font-size: 18px;
+        }
+        .company {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+        ul {
+            margin-left: 40px;
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+}
